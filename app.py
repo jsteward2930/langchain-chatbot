@@ -16,4 +16,4 @@ for endpoint in [ingest, chat]:
     app.include_router(endpoint.router)
 
 if __name__ == "__main__":
-    uvicorn.run('app:app', port=9091, reload=True)
+    uvicorn.run('app:app', port=8501, reload=True)
